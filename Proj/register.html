@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+            <!--Navbar-->
+        <nav class="navbar navbar-dark navbar-expand-lg sticky-top" style="background-color: #33202A;">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/book.jpg" alt="logo" width="75px" height="75px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="store.html" style="color: white;">Browse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="login.html" style="color: white; text-decoration: underline;">Login</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" style="margin-right: 2%;">Search</button>
+                <button class="btn btn-outline-success" type="submit" formaction="cart.html">Cart</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+
+        <!--Form-->
+        <div class="container-fluid fill" style="padding: 1%; background-color: lightgreen; height: 80.8vh;">
+          <form id="form" method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">First Name<span aria-hidden="true" class="required">*</span></label>
+                  <input type="text" class="form-control" aria-describedby="required-description" id="inputFirstName" placeholder="First Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputLastName">Last Name<span class="required">*</span></label>
+                  <input type="text" class="form-control" aria-describedby="required-description" id="inputLastName" placeholder="Last Name" required>
+                </div>
+              </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail">Email<span aria-hidden="true" class="required">*</span></label>
+                <input type="email" class="form-control" aria-describedby="required-description" id="inputEmail" placeholder="Email" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password<span aria-hidden="true" class="required">*</span></label>
+                <input type="password" class="form-control" aria-describedby="required-description" id="inputPassword" placeholder="Password" required>
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputAddress">Address<span aria-hidden="true" class="required">*</span></label>
+              <input type="text" class="form-control" aria-describedby="required-description" id="inputAddress" placeholder="1234 Main St" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City<span aria-hidden="true" class="required">*</span></label>
+                <input type="text" class="form-control" aria-describedby="required-description" id="inputCity" required>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control" required>
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip<span aria-hidden="true" class="required">*</span></label>
+                <input type="text" class="form-control" aria-describedby="required-description" id="inputZip" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Send news by email
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitbtn"  style="margin-top: 1%; width: auto;">Register</button>
+          </form>
+        </div>
+
+         <!--Footer-->
+         <div class="container-fluid" style="background-color: #80ADA0; position: absolute; bottom: 0; margin-top: 1% ">
+          <footer>
+            <ul class="nav justify-content-center border-bottom pb-1 mb-1">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2021 Company, Inc</p>
+          </footer>
+        </div>
+
+        <script src="script\registration.js"></script>
+</body>
+</html>
