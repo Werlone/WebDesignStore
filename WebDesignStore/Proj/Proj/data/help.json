@@ -1,0 +1,140 @@
+{
+  "id": "1",
+  "name": "Book1",
+  "author": "Author1",
+  "genre": "Fantasy",
+  "price": "15.99"
+}
+{
+  "id": "2",
+  "name": "Book2",
+  "author": "Author2",
+  "genre": "Thriller",
+  "price": "15.99"
+}
+{
+  "id": "3",
+  "name": "Book3",
+  "author": "Author3",
+  "genre": "Sci-fi",
+  "price": "15.99"
+}
+{
+  "id": "4",
+  "name": "Book4",
+  "author": "Author4",
+  "genre": "Mystery",
+  "price": "15.99"
+}
+{
+  "id": "5",
+  "name": "Book5",
+  "author": "Author5",
+  "genre": "Fantasy",
+  "price": "15.99"
+}
+{
+  "id": "6",
+  "name": "Book6",
+  "author": "Author6",
+  "genre": "Action",
+  "price": "15.99"
+}
+{
+  "id": "7",
+  "name": "Book7",
+  "author": "Author7",
+  "genre": "Romance",
+  "price": "15.99"
+}
+{
+  "id": "8",
+  "name": "Book8",
+  "author": "Author8",
+  "genre": "Romance",
+  "price": "15.99"
+}
+{
+  "id": "9",
+  "name": "Book9",
+  "author": "Author9",
+  "genre": "Sport",
+  "price": "15.99"
+}
+{
+  "id": "10",
+  "name": "Book10",
+  "author": "Author10",
+  "genre": "Horror",
+  "price": "15.99"
+}
+{
+  "id": "11",
+  "name": "Book11",
+  "author": "Author11",
+  "genre": "Fantasy",
+  "price": "15.99"
+}
+{
+  "id": "12",
+  "name": "Book12",
+  "author": "Author12",
+  "genre": "Thriller",
+  "price": "15.99"
+}
+{
+  "id": "13",
+  "name": "Book13",
+  "author": "Author13",
+  "genre": "Sci-fi",
+  "price": "15.99"
+}
+{
+  "id": "14",
+  "name": "Book14",
+  "author": "Author14",
+  "genre": "Mystery",
+  "price": "15.99"
+}
+{
+  "id": "15",
+  "name": "Book15",
+  "author": "Author15",
+  "genre": "Fantasy",
+  "price": "15.99"
+}
+{
+  "id": "16",
+  "name": "Book16",
+  "author": "Author16",
+  "genre": "Action",
+  "price": "15.99"
+}
+{
+  "id": "17",
+  "name": "Book17",
+  "author": "Author17",
+  "genre": "Romance",
+  "price": "15.99"
+}
+{
+  "id": "18",
+  "name": "Book18",
+  "author": "Author18",
+  "genre": "Romance",
+  "price": "15.99"
+}
+{
+  "id": "19",
+  "name": "Book19",
+  "author": "Author19",
+  "genre": "Sport",
+  "price": "15.99"
+}
+{
+  "id": "20",
+  "name": "Book20",
+  "author": "Author20",
+  "genre": "Horror",
+  "price": "15.99"
+}
